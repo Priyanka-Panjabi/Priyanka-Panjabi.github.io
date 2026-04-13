@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Priyanka Panjabi",
   title: "Senior Frontend Engineer",
-  tagline: "Calgary, Canada · Canadian PR · Open to work in Canada & US",
+  tagline: "📍 Calgary, Canada · Canadian PR · Open to work in Canada & US",
   description:
     "Portfolio of Priyanka Panjabi — Senior Frontend Engineer specializing in React and TypeScript",
   accentColor: "#2563eb",
@@ -11,12 +11,12 @@ export const siteConfig = {
     github: "https://github.com/Priyanka-Panjabi",
   },
   aboutMe: [
-    "8+ years building React & TypeScript applications at 1M+ user scale.",
-    "Delivered ~40–50% performance improvements across enterprise healthcare platforms at Optum (UnitedHealth Group).",
-    "Architected a shared component library adopted by 10+ teams at Thomson Reuters.",
-    "Experience spanning healthcare, enterprise SaaS, and logistics at Wipro and Reliance Jio.",
-    "Based in Calgary, Canada — eligible to work in Canada and the US.",
-    "Seeking Senior and Tech Lead roles where I can own complex frontend systems and raise the engineering bar.",
+    "🚀 8+ years building React & TypeScript applications at 1M+ user scale.",
+    "⚡ Delivered ~40–50% performance improvements across enterprise healthcare platforms at Optum (UnitedHealth Group).",
+    "🏗️ Architected a shared component library adopted by 10+ teams at Thomson Reuters.",
+    "💼 Experience spanning healthcare, enterprise SaaS, and logistics at Wipro and Reliance Jio.",
+    "📍 Based in Calgary, Canada — eligible to work in Canada and the US.",
+    "🎯 Seeking Senior and Tech Lead roles where I can own complex frontend systems and raise the engineering bar.",
   ],
   skills: [
     "React.js",

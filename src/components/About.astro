@@ -9,7 +9,7 @@ import { siteConfig } from "../config";
         <h2
           class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900"
         >
-          About Me
+          About Me 🙋‍♀️
         </h2>
         <div
           class="w-[75px] h-[5px] mt-2 rounded-full"
@@ -22,11 +22,7 @@ import { siteConfig } from "../config";
         <ul class="space-y-3">
           {
             siteConfig.aboutMe.map((point) => (
-              <li class="flex items-start gap-3 text-lg sm:text-xl leading-relaxed text-gray-600">
-                <span
-                  class="mt-2 w-2 h-2 rounded-full flex-shrink-0"
-                  style={`background-color: ${siteConfig.accentColor}`}
-                />
+              <li class="text-lg sm:text-xl leading-relaxed text-gray-600">
                 {point}
               </li>
             ))
