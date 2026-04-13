@@ -148,6 +148,13 @@ import { siteConfig } from "../config";
       >
         {siteConfig.title}
       </p>
+      {
+        siteConfig.tagline && (
+          <p class="mt-2 sm:mt-3 text-pretty text-sm sm:text-base font-medium text-gray-400 animate-fade-in animation-delay-400">
+            {siteConfig.tagline}
+          </p>
+        )
+      }
     </div>
   </div>
   <div

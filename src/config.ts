@@ -1,6 +1,7 @@
 export const siteConfig = {
   name: "Priyanka Panjabi",
   title: "Senior Frontend Engineer",
+  tagline: "Calgary, Canada · Canadian PR · Open to work in Canada & US",
   description:
     "Portfolio of Priyanka Panjabi — Senior Frontend Engineer specializing in React and TypeScript",
   accentColor: "#2563eb",
@@ -25,7 +26,6 @@ export const siteConfig = {
     "Redux / Redux-Saga",
     "Context API",
     "Node.js",
-    "GraphQL",
     "REST APIs",
     "HTML5 / CSS3",
     "Material UI",
@@ -67,7 +67,7 @@ export const siteConfig = {
       dateRange: "Dec 2021 – Dec 2025",
       bullets: [
         "Architected a reusable React component library adopted by 10+ teams, standardizing component patterns and measurably reducing cross-team onboarding friction and code duplication.",
-        "Shipped 'Knowledge Hub' — an interactive product training and onboarding experience that improved new user activation and reduced reliance on external support documentation.",
+        "Shipped 'Knowledge Hub' — an interactive product training and onboarding experience that accelerated time-to-value for new users and reduced dependency on external support documentation.",
         "Systematically eliminated critical technical debt through targeted debugging and refactoring, improving code readability and application response times.",
       ],
     },
