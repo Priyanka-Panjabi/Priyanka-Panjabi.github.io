@@ -1,0 +1,39 @@
+---
+import { siteConfig } from "../config";
+---
+
+<section id="contact" class="p-8 sm:p-12 md:p-16 lg:p-24">
+  <div class="max-w-2xl mx-auto text-center">
+    <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
+      Let's Connect 🤝
+    </h2>
+    <div
+      class="w-[75px] h-[5px] mt-2 rounded-full mx-auto"
+      style={`background-color: ${siteConfig.accentColor}`}
+    />
+    <p class="mt-6 text-lg sm:text-xl text-gray-600 leading-relaxed">
+      I'm actively looking for Senior and Tech Lead roles in Canada and the US.
+      If you're building something impactful and need a frontend engineer who
+      raises the bar — let's talk.
+    </p>
+
+    <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+      <a
+        href={`mailto:${siteConfig.social.email}`}
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-lg text-white font-medium transition-opacity duration-200 hover:opacity-90 w-full sm:w-auto justify-center"
+        style={`background-color: ${siteConfig.accentColor}`}
+      >
+        📧 Send an Email
+      </a>
+      <a
+        href={siteConfig.social.linkedin}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-lg border-2 text-gray-700 font-medium transition-colors duration-200 hover:bg-gray-50 w-full sm:w-auto justify-center"
+        style={`border-color: ${siteConfig.accentColor}`}
+      >
+        💼 LinkedIn
+      </a>
+    </div>
+  </div>
+</section>

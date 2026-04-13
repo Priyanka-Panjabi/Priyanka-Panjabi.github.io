@@ -2,6 +2,13 @@ export const siteConfig = {
   name: "Priyanka Panjabi",
   title: "Senior Frontend Engineer",
   tagline: "📍 Calgary, Canada · Canadian PR · Open to work in Canada & US",
+  openToWork: true,
+  resumeUrl: "/resume.pdf",
+  stats: [
+    { label: "Years Experience", value: 8, suffix: "+" },
+    { label: "Users Served", value: 1, suffix: "M+" },
+    { label: "Teams Impacted", value: 10, suffix: "+" },
+  ],
   description:
     "Portfolio of Priyanka Panjabi — Senior Frontend Engineer specializing in React and TypeScript",
   accentColor: "#2563eb",
@@ -19,25 +26,30 @@ export const siteConfig = {
     "🎯 Seeking Senior and Tech Lead roles where I can own complex frontend systems and raise the engineering bar.",
   ],
   skills: [
-    "React.js",
-    "Next.js",
-    "TypeScript",
-    "JavaScript (ES6+)",
-    "Redux / Redux-Saga",
-    "Context API",
-    "Node.js",
-    "REST APIs",
-    "HTML5 / CSS3",
-    "Material UI",
-    "Tailwind CSS",
-    "SCSS / Sass",
-    "Jest / React Testing Library",
-    "WebdriverIO (WDIO)",
-    "GitHub Actions / CI/CD",
-    "Webpack",
-    "Accessibility (a11y)",
-    "Performance Optimization",
-    "Agile / Scrum",
+    {
+      category: "⚛️ Frontend",
+      items: ["React.js", "Next.js", "TypeScript", "JavaScript (ES6+)", "HTML5 / CSS3", "Accessibility (a11y)", "Performance Optimization"],
+    },
+    {
+      category: "🔄 State Management",
+      items: ["Redux", "Redux-Saga", "Redux Thunk", "Context API"],
+    },
+    {
+      category: "🎨 UI & Styling",
+      items: ["Material UI (MUI)", "Tailwind CSS", "SCSS / Sass"],
+    },
+    {
+      category: "🔌 Backend & APIs",
+      items: ["Node.js", "REST APIs", "Express.js"],
+    },
+    {
+      category: "🧪 Testing",
+      items: ["Jest", "React Testing Library", "WebdriverIO (WDIO)"],
+    },
+    {
+      category: "🛠️ Tools & DevOps",
+      items: ["Git / GitHub", "GitHub Actions / CI/CD", "Webpack", "Jira"],
+    },
   ],
   projects: [],
   experience: [

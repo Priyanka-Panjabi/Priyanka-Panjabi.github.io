@@ -1,13 +1,18 @@
 ---
 import Header from "../components/Header.astro";
 import Hero from "../components/Hero.astro";
+import Stats from "../components/Stats.astro";
 import About from "../components/About.astro";
 import Projects from "../components/Projects.astro";
 import Experience from "../components/Experience.astro";
 import Education from "../components/Education.astro";
+import Contact from "../components/Contact.astro";
+import BackToTop from "../components/BackToTop.astro";
 import Footer from "../components/Footer.astro";
 import { siteConfig } from "../config";
 import "../styles/global.css";
+
+const siteUrl = "https://priyanka-panjabi.github.io";
 ---
 
 <html lang="en">
@@ -17,23 +22,39 @@ import "../styles/global.css";
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={siteConfig.description} />
+
+    <!-- OpenGraph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={siteUrl} />
+    <meta property="og:title" content={`${siteConfig.name} — ${siteConfig.title}`} />
+    <meta property="og:description" content="Senior Frontend Engineer with 8+ years building React & TypeScript apps at 1M+ user scale. Based in Calgary, Canada. Open to work in Canada & US." />
+    <meta property="og:site_name" content={siteConfig.name} />
+
+    <!-- Twitter / X card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={`${siteConfig.name} — ${siteConfig.title}`} />
+    <meta name="twitter:description" content="Senior Frontend Engineer with 8+ years building React & TypeScript apps at 1M+ user scale. Open to work in Canada & US." />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <title>{siteConfig.name} - {siteConfig.title}</title>
+    <title>{siteConfig.name} — {siteConfig.title}</title>
   </head>
   <body>
     <Header />
     <section>
       <Hero />
+      <Stats />
       <About />
       <Projects />
       <Experience />
       <Education />
+      <Contact />
     </section>
     <Footer />
+    <BackToTop />
   </body>
 </html>
