@@ -16,7 +16,7 @@ export const siteConfig = {
     "Architected a shared component library adopted by 10+ teams at Thomson Reuters.",
     "Experience spanning healthcare, enterprise SaaS, and logistics at Wipro and Reliance Jio.",
     "Based in Calgary, Canada — eligible to work in Canada and the US.",
-    "Seeking Senior IC and Tech Lead roles.",
+    "Seeking Senior and Tech Lead roles where I can own complex frontend systems and raise the engineering bar.",
   ],
   skills: [
     "React.js",
