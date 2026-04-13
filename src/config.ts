@@ -5,7 +5,7 @@ export const siteConfig = {
     "Portfolio of Priyanka Panjabi — Senior Frontend Engineer specializing in React and TypeScript",
   accentColor: "#2563eb",
   social: {
-    email: "your.email@example.com",
+    email: "priyanka.panjabi88@gmail.com",
     linkedin: "https://www.linkedin.com/in/priyanka-panjabi-84496112b/",
     github: "https://github.com/Priyanka-Panjabi",
   },
